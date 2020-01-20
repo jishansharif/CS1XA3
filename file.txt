@@ -1,1 +1,2 @@
-New file and modified it 
+New file and modified it
+Changing it now an my local repository 
