@@ -29,11 +29,8 @@ elif [[ "$1" -eq "2" ]]; then
 	read x
 	echo "The number of files is"  $(find * -type f -name "*$x"| wc -l)
 
-
 elif [[ "$1" -eq "3" ]]; then
 	du `ls -F . | grep -v \/ | xargs` | sort -rn | cut -f2 | xargs du -sh
-<<<<<<< HEAD
-=======
 
 elif [[ "$1" -eq "4" ]]; then
 	echo "BACKUP or RESTORE?"
