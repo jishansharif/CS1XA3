@@ -1,0 +1,1851 @@
+Watching for file changes with StatReloader
+[22/Apr/2020 20:04:33] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 20:05:08] "GET /e/sharifj/signup/ HTTP/1.1" 200 2563
+[22/Apr/2020 20:05:21] "POST /e/sharifj/ HTTP/1.1" 302 0
+[22/Apr/2020 20:05:21] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 7028
+[22/Apr/2020 20:07:03] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[22/Apr/2020 20:07:03] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 20:33:54] "POST /e/sharifj/ HTTP/1.1" 302 0
+[22/Apr/2020 20:33:54] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 7028
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 20:04:04
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Apr/2020 20:40:01] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 7028
+[22/Apr/2020 20:40:02] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[22/Apr/2020 20:40:02] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 20:40:05] "GET /e/sharifj/signup/ HTTP/1.1" 200 3829
+Internal Server Error: /e/sharifj/signup/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/login/views.py", line 68, in signup_view
+    if form.is_valid(request.POST):
+TypeError: is_valid() takes 1 positional argument but 2 were given
+[22/Apr/2020 20:40:36] "POST /e/sharifj/signup/ HTTP/1.1" 500 67358
+Internal Server Error: /e/sharifj/signup/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/login/views.py", line 68, in signup_view
+    if form.is_valid(request.POST):
+TypeError: is_valid() takes 1 positional argument but 2 were given
+[22/Apr/2020 20:41:10] "POST /e/sharifj/signup/ HTTP/1.1" 500 67336
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 20:39:48
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Apr/2020 20:42:16] "GET /e/sharifj/signup/ HTTP/1.1" 200 3829
+[22/Apr/2020 20:42:22] "POST /e/sharifj/signup/ HTTP/1.1" 200 3829
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 20:42:13
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Apr/2020 20:50:09] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 20:50:22] "POST /e/sharifj/ HTTP/1.1" 302 0
+[22/Apr/2020 20:50:22] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 7028
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 20:50:04
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Apr/2020 20:53:23] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[22/Apr/2020 20:53:23] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 20:53:24] "GET /e/sharifj/signup/ HTTP/1.1" 200 3829
+[22/Apr/2020 20:53:38] "POST /e/sharifj/signup/ HTTP/1.1" 200 3829
+[22/Apr/2020 20:53:59] "POST /e/sharifj/signup/ HTTP/1.1" 200 3829
+[22/Apr/2020 20:54:34] "POST /e/sharifj/signup/ HTTP/1.1" 200 3829
+[22/Apr/2020 20:56:58] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 20:57:12] "POST /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 20:57:19] "POST /e/sharifj/ HTTP/1.1" 302 0
+[22/Apr/2020 20:57:20] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 7028
+[22/Apr/2020 20:57:26] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[22/Apr/2020 20:57:26] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 20:57:27] "GET /e/sharifj/signup/ HTTP/1.1" 200 3829
+[22/Apr/2020 20:58:26] "POST /e/sharifj/signup/ HTTP/1.1" 200 3829
+[22/Apr/2020 20:58:37] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 20:58:47] "POST /e/sharifj/ HTTP/1.1" 200 4623
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 20:53:17
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Apr/2020 21:04:42] "POST /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 21:04:44] "GET /e/sharifj/signup/ HTTP/1.1" 200 3829
+Internal Server Error: /e/sharifj/signup/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/login/views.py", line 72, in signup_view
+    models.UserInfo.objects.create_user_info(username = username,password = password)
+  File "/home/sharifj/private/CS1XA3/Project03/social/models.py", line 10, in create_user_info
+    password=password)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/contrib/auth/models.py", line 147, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/contrib/auth/models.py", line 141, in _create_user
+    user.save(using=self._db)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/contrib/auth/base_user.py", line 66, in save
+    super().save(*args, **kwargs)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/models/base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/models/base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1384, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
+[22/Apr/2020 21:04:57] "POST /e/sharifj/signup/ HTTP/1.1" 500 169815
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 21:04:37
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Apr/2020 21:08:40] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 21:08:42] "GET /e/sharifj/signup/ HTTP/1.1" 200 3829
+[22/Apr/2020 21:09:01] "POST /e/sharifj/signup/ HTTP/1.1" 200 3829
+[22/Apr/2020 21:09:19] "POST /e/sharifj/signup/ HTTP/1.1" 200 3829
+[22/Apr/2020 21:09:31] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 21:09:43] "POST /e/sharifj/ HTTP/1.1" 200 4623
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 21:08:34
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Apr/2020 21:11:02] "POST /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 21:11:03] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[22/Apr/2020 21:11:16] "POST /e/sharifj/signup/ HTTP/1.1" 200 3921
+[22/Apr/2020 21:11:47] "POST /e/sharifj/signup/ HTTP/1.1" 200 3922
+[22/Apr/2020 21:12:15] "POST /e/sharifj/signup/ HTTP/1.1" 200 3923
+[22/Apr/2020 21:12:28] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 21:12:38] "POST /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 21:12:44] "POST /e/sharifj/ HTTP/1.1" 200 4623
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 21:10:57
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 21:14:07
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Apr/2020 21:17:14] "POST /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 21:17:15] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[22/Apr/2020 21:17:29] "POST /e/sharifj/signup/ HTTP/1.1" 302 0
+[22/Apr/2020 21:17:29] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 7028
+[22/Apr/2020 21:18:18] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[22/Apr/2020 21:18:18] "GET /e/sharifj/ HTTP/1.1" 200 4623
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 21:17:07
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Apr/2020 21:30:40] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 21:30:45] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[22/Apr/2020 21:30:59] "POST /e/sharifj/signup/ HTTP/1.1" 200 4001
+[22/Apr/2020 21:31:08] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 21:31:16] "POST /e/sharifj/ HTTP/1.1" 302 0
+[22/Apr/2020 21:31:16] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+/home/sharifj/private/CS1XA3/Project03/social/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 21:21:25
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Apr/2020 21:39:12] "GET /e/sharifj/social/account/ HTTP/1.1" 200 5367
+Watching for file changes with StatReloader
+Internal Server Error: /e/sharifj/social/account/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/social/views.py", line 70, in account_view
+    return render(request,'account.djhtml',context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'update_view' not found. 'update_view' is not a valid view function or pattern name.
+[22/Apr/2020 22:20:24] "GET /e/sharifj/social/account/ HTTP/1.1" 500 180677
+[22/Apr/2020 22:20:32] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 22:20:35] "POST /e/sharifj/ HTTP/1.1" 302 0
+[22/Apr/2020 22:20:35] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+Internal Server Error: /e/sharifj/social/account/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/social/views.py", line 70, in account_view
+    return render(request,'account.djhtml',context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'update_view' not found. 'update_view' is not a valid view function or pattern name.
+[22/Apr/2020 22:20:37] "GET /e/sharifj/social/account/ HTTP/1.1" 500 180540
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 22:20:20
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Apr/2020 22:23:01] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7023
+[22/Apr/2020 22:23:59] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 22:24:01] "POST /e/sharifj/ HTTP/1.1" 302 0
+[22/Apr/2020 22:24:01] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[22/Apr/2020 22:24:09] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7023
+[22/Apr/2020 22:24:34] "POST /e/sharifj/social/account/ HTTP/1.1" 200 7087
+[22/Apr/2020 22:24:56] "GET /e/sharifj/social/account/?employment=cs1xa3&location=hamilton&birthday=2020-04-22&interest=nothing HTTP/1.1" 200 7023
+[22/Apr/2020 22:25:15] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7023
+[22/Apr/2020 22:25:18] "GET /e/sharifj/social/people/ HTTP/1.1" 200 7145
+[22/Apr/2020 22:25:27] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[22/Apr/2020 22:25:50] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7023
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 22:22:23
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Apr/2020 22:37:11] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7034
+[22/Apr/2020 22:37:20] "POST /e/sharifj/social/account/ HTTP/1.1" 200 7098
+[22/Apr/2020 22:37:36] "GET /e/sharifj/social/account/?employment=cs1xa3&location=hamilton&birthday=2020-04-22&interest=nothing HTTP/1.1" 200 7034
+[22/Apr/2020 22:37:45] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[22/Apr/2020 22:37:45] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 22:37:47] "POST /e/sharifj/ HTTP/1.1" 302 0
+[22/Apr/2020 22:37:47] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[22/Apr/2020 22:38:01] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7034
+[22/Apr/2020 22:38:29] "POST /e/sharifj/social/account/ HTTP/1.1" 200 7098
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 22:35:31
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Apr/2020 23:00:22] "POST /e/sharifj/social/account/ HTTP/1.1" 200 7098
+[22/Apr/2020 23:00:34] "POST /e/sharifj/social/account/ HTTP/1.1" 200 7098
+[22/Apr/2020 23:00:54] "GET /e/sharifj/social/account/?employment=cs1xa3&location=hamilton&birthday=2020-04-22&interest=nothing HTTP/1.1" 200 7034
+[22/Apr/2020 23:00:57] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[22/Apr/2020 23:00:57] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[22/Apr/2020 23:00:59] "POST /e/sharifj/ HTTP/1.1" 302 0
+[22/Apr/2020 23:00:59] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[22/Apr/2020 23:02:08] "GET /e/sharifj/social/people/ HTTP/1.1" 200 7145
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 23:00:17
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 23:17:18
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2020 - 23:37:49
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 00:09:25] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7034
+Internal Server Error: /e/sharifj/social/people/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/social/views.py", line 87, in people_view
+    count = request.session["ppl_view"]
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 64, in __getitem__
+    return self._session[key]
+KeyError: 'ppl_view'
+[23/Apr/2020 00:10:44] "GET /e/sharifj/social/people/ HTTP/1.1" 500 70753
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 00:04:00
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Internal Server Error: /e/sharifj/social/people/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/social/views.py", line 87, in people_view
+    count = request.session["ppl_view"]
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 64, in __getitem__
+    return self._session[key]
+KeyError: 'ppl_view'
+[23/Apr/2020 00:20:00] "GET /e/sharifj/social/people/ HTTP/1.1" 500 70890
+[23/Apr/2020 00:31:54] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 00:31:57] "POST /e/sharifj/ HTTP/1.1" 302 0
+[23/Apr/2020 00:31:57] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 00:32:00] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7034
+[23/Apr/2020 00:32:03] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[23/Apr/2020 00:32:03] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 00:32:04] "POST /e/sharifj/ HTTP/1.1" 302 0
+[23/Apr/2020 00:32:04] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+Internal Server Error: /e/sharifj/social/people/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/social/views.py", line 87, in people_view
+    count = request.session["ppl_view"]
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 64, in __getitem__
+    return self._session[key]
+KeyError: 'ppl_view'
+[23/Apr/2020 00:32:05] "GET /e/sharifj/social/people/ HTTP/1.1" 500 70754
+/home/sharifj/private/CS1XA3/Project03/social/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 00:16:17
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 00:32:45
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Internal Server Error: /e/sharifj/social/people/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/social/views.py", line 87, in people_view
+    count = request.session["ppl_view"]
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 64, in __getitem__
+    return self._session[key]
+KeyError: 'ppl_view'
+[23/Apr/2020 00:37:12] "GET /e/sharifj/social/people/ HTTP/1.1" 500 70900
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 00:37:09
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 00:38:21] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8819
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 00:38:19
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 00:39:41] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8819
+[23/Apr/2020 00:39:46] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[23/Apr/2020 00:39:46] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 00:39:47] "POST /e/sharifj/ HTTP/1.1" 302 0
+[23/Apr/2020 00:39:47] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 00:39:49] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8819
+[23/Apr/2020 00:52:37] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8819
+[23/Apr/2020 00:52:39] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 00:52:41] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8819
+[23/Apr/2020 00:52:42] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 00:39:40
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 00:55:05] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8819
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 00:54:54
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 01:04:34
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 01:05:16
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 01:14:00] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8402
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 01:06:03
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 01:19:05
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Traceback (most recent call last):
+  File "manage.py", line 10, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 16, in main
+    ) from exc
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+[23/Apr/2020 02:36:15] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8402
+[23/Apr/2020 02:36:27] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7034
+[23/Apr/2020 02:36:29] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8402
+[23/Apr/2020 02:36:30] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 02:36:33] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8402
+[23/Apr/2020 02:36:59] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7034
+[23/Apr/2020 02:37:01] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8402
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 02:35:56
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 02:40:29] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8402
+[23/Apr/2020 02:40:31] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[23/Apr/2020 02:40:31] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 02:40:32] "POST /e/sharifj/ HTTP/1.1" 302 0
+[23/Apr/2020 02:40:32] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 02:40:40] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7034
+[23/Apr/2020 02:40:42] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8402
+[23/Apr/2020 02:40:44] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 02:40:45] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[23/Apr/2020 02:40:45] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 02:40:47] "POST /e/sharifj/ HTTP/1.1" 302 0
+[23/Apr/2020 02:40:47] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 02:40:50] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[23/Apr/2020 02:40:50] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 02:40:51] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[23/Apr/2020 02:41:15] "POST /e/sharifj/signup/ HTTP/1.1" 302 0
+[23/Apr/2020 02:41:15] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6807
+[23/Apr/2020 02:41:19] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7030
+[23/Apr/2020 02:41:22] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9110
+[23/Apr/2020 02:42:00] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7030
+[23/Apr/2020 02:42:03] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6807
+[23/Apr/2020 02:42:09] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9110
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 02:40:25
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 02:50:55
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 02:51:20
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 02:51:59
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 03:06:14] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9086
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 02:53:42
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 03:12:27] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[23/Apr/2020 03:12:27] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 03:12:28] "POST /e/sharifj/ HTTP/1.1" 302 0
+[23/Apr/2020 03:12:28] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+Internal Server Error: /e/sharifj/social/people/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/social/views.py", line 88, in people_view
+    count = request.session["ppl_view"]
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 64, in __getitem__
+    return self._session[key]
+KeyError: 'ppl_view'
+[23/Apr/2020 03:12:36] "GET /e/sharifj/social/people/ HTTP/1.1" 500 70800
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 03:12:24
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Internal Server Error: /e/sharifj/social/people/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/social/views.py", line 105, in people_view
+    'all_people' : all_people[:ppl_count],
+NameError: name 'ppl_count' is not defined
+[23/Apr/2020 03:13:13] "GET /e/sharifj/social/people/ HTTP/1.1" 500 67893
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 03:13:10
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 03:14:39] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9086
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 03:14:37
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 03:47:46] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9086
+[23/Apr/2020 03:51:14] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[23/Apr/2020 03:51:14] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 03:51:19] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[23/Apr/2020 03:51:30] "POST /e/sharifj/signup/ HTTP/1.1" 302 0
+[23/Apr/2020 03:51:30] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6807
+[23/Apr/2020 03:51:33] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7030
+[23/Apr/2020 03:51:45] "POST /e/sharifj/social/account/ HTTP/1.1" 200 7131
+[23/Apr/2020 03:51:51] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6807
+[23/Apr/2020 03:51:57] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9792
+[23/Apr/2020 03:54:01] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6807
+[23/Apr/2020 03:58:04] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9792
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 03:24:19
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[23/Apr/2020 04:03:33] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9792
+[23/Apr/2020 04:03:41] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7030
+[23/Apr/2020 04:03:44] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[23/Apr/2020 04:03:44] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 04:03:48] "POST /e/sharifj/ HTTP/1.1" 302 0
+[23/Apr/2020 04:03:48] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 04:03:53] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9792
+[23/Apr/2020 04:04:09] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9792
+[23/Apr/2020 04:04:10] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 04:04:11] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9792
+[23/Apr/2020 04:04:12] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 04:04:20] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9792
+[23/Apr/2020 04:04:41] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 04:05:58] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9792
+[23/Apr/2020 04:26:17] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 04:01:59
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 05:00:36] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9792
+[23/Apr/2020 05:03:29] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 05:03:32] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9792
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 04:40:32
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 05:28:00] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9782
+[23/Apr/2020 05:28:05] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9782
+[23/Apr/2020 05:28:06] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 05:28:07] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9782
+[23/Apr/2020 05:28:08] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[23/Apr/2020 05:28:08] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 05:28:11] "POST /e/sharifj/ HTTP/1.1" 302 0
+[23/Apr/2020 05:28:11] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 05:28:14] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9782
+[23/Apr/2020 05:28:17] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 05:28:18] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9782
+[23/Apr/2020 05:29:12] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9782
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 05:27:52
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 06:11:39
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 06:16:51] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9782
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 06:16:47
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 06:25:17] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9774
+[23/Apr/2020 06:25:21] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 06:25:22] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9774
+[23/Apr/2020 06:25:28] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 06:33:32] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 06:33:35] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9774
+[23/Apr/2020 15:54:51] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9774
+[23/Apr/2020 15:54:53] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+Traceback (most recent call last):
+  File "manage.py", line 10, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 16, in main
+    ) from exc
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+[23/Apr/2020 16:33:52] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 16:33:53] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9774
+[23/Apr/2020 16:33:55] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6811
+[23/Apr/2020 16:33:57] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9774
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 06:18:11
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 16:58:37] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9774
+[23/Apr/2020 16:58:38] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 16:58:41] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 16:58:42] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9774
+[23/Apr/2020 16:58:44] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 17:01:29] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9774
+[23/Apr/2020 17:01:34] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 17:01:36] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7034
+[23/Apr/2020 17:01:39] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9774
+[23/Apr/2020 17:01:40] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 17:01:41] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[23/Apr/2020 17:01:41] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 17:01:44] "POST /e/sharifj/ HTTP/1.1" 302 0
+[23/Apr/2020 17:01:45] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 17:07:36] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+Watching for file changes with StatReloader
+[23/Apr/2020 17:08:53] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 17:08:54] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9774
+[23/Apr/2020 17:08:55] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 17:12:35] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 16:35:27
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 17:31:51] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[23/Apr/2020 17:31:51] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 17:32:00] "POST /e/sharifj/ HTTP/1.1" 302 0
+[23/Apr/2020 17:32:00] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 17:32:03] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9774
+[23/Apr/2020 17:32:08] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 17:23:42
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 17:37:38] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 17:37:40] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9774
+[23/Apr/2020 17:37:41] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 17:38:15] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 17:39:35] "GET /e/sharifj/social/messages/ HTTP/1.1" 302 0
+[23/Apr/2020 17:39:35] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 17:43:02] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[23/Apr/2020 17:43:08] "POST /e/sharifj/signup/ HTTP/1.1" 200 3923
+[23/Apr/2020 17:43:23] "POST /e/sharifj/signup/ HTTP/1.1" 302 0
+[23/Apr/2020 17:43:23] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6537
+[23/Apr/2020 18:28:13] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 18:28:16] "POST /e/sharifj/ HTTP/1.1" 302 0
+[23/Apr/2020 18:28:16] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 18:28:19] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10482
+[23/Apr/2020 18:28:28] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10482
+[23/Apr/2020 18:28:29] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 20:33:10] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10482
+[23/Apr/2020 20:33:20] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10482
+[23/Apr/2020 20:33:21] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 20:33:23] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10482
+[23/Apr/2020 20:33:24] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[23/Apr/2020 20:33:24] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[23/Apr/2020 20:33:27] "POST /e/sharifj/ HTTP/1.1" 302 0
+[23/Apr/2020 20:33:27] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 20:33:30] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10482
+[23/Apr/2020 20:33:38] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 20:33:42] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10482
+[23/Apr/2020 20:33:55] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 20:33:56] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10482
+[23/Apr/2020 20:34:20] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10482
+[23/Apr/2020 20:38:30] "GET /e/sharifj/social/people/ HTTP/1.1" 302 0
+[23/Apr/2020 20:38:30] "GET /e/sharifj/ HTTP/1.1" 200 4623
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 17:37:32
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Apr/2020 23:21:21] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[23/Apr/2020 23:22:00] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7034
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 23:16:40
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 23:25:16
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 23:35:13
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[24/Apr/2020 00:14:54] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7035
+[24/Apr/2020 00:14:55] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10482
+[24/Apr/2020 00:15:02] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7035
+[24/Apr/2020 00:15:14] "POST /e/sharifj/social/account/ HTTP/1.1" 200 7099
+[24/Apr/2020 00:15:26] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10482
+[24/Apr/2020 00:44:23] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6539
+[24/Apr/2020 00:44:25] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10482
+[24/Apr/2020 01:53:55] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[24/Apr/2020 01:53:55] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[24/Apr/2020 01:53:57] "GET /e/sharifj HTTP/1.1" 301 0
+[24/Apr/2020 01:53:58] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[24/Apr/2020 01:54:55] "GET /e/sharifj/ HTTP/1.1" 200 4623
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2020 - 23:53:40
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 25, 2020 - 19:35:22
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[25/Apr/2020 19:44:24] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[25/Apr/2020 19:44:27] "POST /e/sharifj/ HTTP/1.1" 200 4623
+[25/Apr/2020 19:44:30] "POST /e/sharifj/ HTTP/1.1" 200 4623
+[25/Apr/2020 19:44:31] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[25/Apr/2020 19:44:56] "POST /e/sharifj/signup/ HTTP/1.1" 302 0
+Internal Server Error: /e/sharifj/social/messages/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/social/views.py", line 21, in messages_view
+    count = request.session["post_view"]
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 64, in __getitem__
+    return self._session[key]
+KeyError: 'post_view'
+[25/Apr/2020 19:44:56] "GET /e/sharifj/social/messages/ HTTP/1.1" 500 70524
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 25, 2020 - 19:43:53
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[25/Apr/2020 19:46:11] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6508
+[25/Apr/2020 19:46:20] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11189
+[25/Apr/2020 19:46:21] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6508
+[25/Apr/2020 19:46:24] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11189
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 25, 2020 - 19:46:06
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[25/Apr/2020 21:34:55] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11189
+[25/Apr/2020 21:34:57] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11189
+[25/Apr/2020 21:34:58] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5803
+[25/Apr/2020 21:35:01] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[25/Apr/2020 21:35:01] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5803
+[25/Apr/2020 21:35:03] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11189
+[25/Apr/2020 21:35:04] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5803
+[25/Apr/2020 21:35:05] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[25/Apr/2020 21:35:05] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[25/Apr/2020 21:35:07] "POST /e/sharifj/ HTTP/1.1" 200 4623
+[25/Apr/2020 21:35:10] "POST /e/sharifj/ HTTP/1.1" 200 4623
+[25/Apr/2020 21:35:11] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[25/Apr/2020 21:35:22] "POST /e/sharifj/signup/ HTTP/1.1" 302 0
+[25/Apr/2020 21:35:22] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5800
+[25/Apr/2020 21:35:24] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[25/Apr/2020 21:35:24] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5800
+[25/Apr/2020 21:35:25] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11893
+[25/Apr/2020 21:35:27] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5800
+[25/Apr/2020 21:35:29] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11893
+[25/Apr/2020 21:35:37] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5800
+[25/Apr/2020 21:35:40] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[25/Apr/2020 21:35:40] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5800
+[25/Apr/2020 21:35:43] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7029
+[25/Apr/2020 21:35:47] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[25/Apr/2020 21:35:47] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[25/Apr/2020 21:35:57] "POST /e/sharifj/ HTTP/1.1" 302 0
+[25/Apr/2020 21:35:57] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5800
+[25/Apr/2020 22:51:44] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5800
+[25/Apr/2020 22:51:46] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[25/Apr/2020 22:51:46] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5800
+[25/Apr/2020 22:51:53] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7029
+[25/Apr/2020 22:51:55] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11893
+[25/Apr/2020 22:51:57] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5800
+[25/Apr/2020 22:52:05] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11893
+[26/Apr/2020 00:56:03] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11893
+[26/Apr/2020 00:56:04] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5800
+[26/Apr/2020 00:56:08] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 00:56:08] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5800
+[26/Apr/2020 04:39:37] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 04:39:44] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[26/Apr/2020 04:39:57] "POST /e/sharifj/signup/ HTTP/1.1" 200 3944
+[26/Apr/2020 04:40:05] "POST /e/sharifj/signup/ HTTP/1.1" 302 0
+[26/Apr/2020 04:40:05] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 04:40:10] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 04:40:11] "GET /e/sharifj/social/people/ HTTP/1.1" 200 12599
+[26/Apr/2020 04:40:12] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 16:48:34] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 16:48:49] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7029
+[26/Apr/2020 16:48:53] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[26/Apr/2020 16:48:53] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 16:49:13] "POST /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 16:49:15] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[26/Apr/2020 16:49:29] "POST /e/sharifj/signup/ HTTP/1.1" 302 0
+[26/Apr/2020 16:49:30] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5808
+[26/Apr/2020 16:53:14] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 16:53:14] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5808
+[26/Apr/2020 16:53:16] "GET /e/sharifj/social/people/ HTTP/1.1" 200 13311
+[26/Apr/2020 16:53:23] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 16:53:23] "GET /e/sharifj/social/people/ HTTP/1.1" 200 13311
+[26/Apr/2020 16:53:32] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5808
+[26/Apr/2020 16:53:34] "GET /e/sharifj/social/people/ HTTP/1.1" 200 13311
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 25, 2020 - 19:54:32
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 17:17:22
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 17:38:05] "GET /e/sharifj/social/people/ HTTP/1.1" 200 13311
+[26/Apr/2020 17:38:06] "GET /e/sharifj/social/people/ HTTP/1.1" 200 13311
+[26/Apr/2020 17:38:07] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5808
+Internal Server Error: /e/sharifj/social/account/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/social/views.py", line 72, in account_view
+    return render(request,'account.djhtml',context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'update_view' not found. 'update_view' is not a valid view function or pattern name.
+[26/Apr/2020 17:38:09] "GET /e/sharifj/social/account/ HTTP/1.1" 500 180551
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 17:37:21
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 17:39:53
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Internal Server Error: /e/sharifj/social/account/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/social/views.py", line 72, in account_view
+    return render(request,'account.djhtml',context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'update_view' not found. 'update_view' is not a valid view function or pattern name.
+[26/Apr/2020 17:45:20] "GET /e/sharifj/social/account/ HTTP/1.1" 500 180688
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 17:45:11
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 17:56:11] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 17:56:14] "POST /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 17:56:16] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[26/Apr/2020 17:56:40] "POST /e/sharifj/signup/ HTTP/1.1" 302 0
+[26/Apr/2020 17:56:40] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5807
+[26/Apr/2020 17:57:07] "GET /e/sharifj/social/people/ HTTP/1.1" 200 14022
+[26/Apr/2020 17:57:10] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5807
+[26/Apr/2020 17:57:13] "GET /e/sharifj/social/people/ HTTP/1.1" 200 14022
+Internal Server Error: /e/sharifj/social/account/
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sharifj/private/CS1XA3/Project03/social/views.py", line 72, in account_view
+    return render(request,'account.djhtml',context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/opt/anaconda3/envs/djangoenv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'update_view' not found. 'update_view' is not a valid view function or pattern name.
+[26/Apr/2020 17:57:16] "GET /e/sharifj/social/account/ HTTP/1.1" 500 180548
+/home/sharifj/private/CS1XA3/Project03/social/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 17:51:26
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 17:59:42] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7034
+[26/Apr/2020 18:00:16] "GET /e/sharifj/social/update/?employment=nothing&location=nothing&birthday=2020-04-06&interest=nothing HTTP/1.1" 302 0
+[26/Apr/2020 18:00:17] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7283
+/home/sharifj/private/CS1XA3/Project03/social/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 17:59:35
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+nothing
+nothing
+2020-04-06
+nothing
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 18:03:40
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 18:06:25] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7283
+[26/Apr/2020 18:06:43] "GET /e/sharifj/social/update/?employment=student&location=heaven&birthday=2020-04-08&interest=romance HTTP/1.1" 302 0
+[26/Apr/2020 18:06:43] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7530
+[26/Apr/2020 18:07:29] "POST /e/sharifj/social/account/ HTTP/1.1" 200 7706
+[26/Apr/2020 18:07:50] "POST /e/sharifj/social/account/ HTTP/1.1" 302 0
+[26/Apr/2020 18:07:50] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 18:07:58] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[26/Apr/2020 18:08:15] "POST /e/sharifj/signup/ HTTP/1.1" 302 0
+[26/Apr/2020 18:08:15] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 18:08:18] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7029
+[26/Apr/2020 18:08:58] "GET /e/sharifj/social/update/?employment=loveisland&location=Moon&birthday=2020-04-01&interest=love HTTP/1.1" 302 0
+[26/Apr/2020 18:08:58] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7275
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 18:06:22
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 18:12:10] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7275
+[26/Apr/2020 18:12:11] "GET /e/sharifj/social/people/ HTTP/1.1" 200 14974
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 18:12:05
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 18:19:14] "GET /e/sharifj/social/people/ HTTP/1.1" 200 7185
+[26/Apr/2020 18:19:15] "GET /e/sharifj/social/people/ HTTP/1.1" 200 7185
+[26/Apr/2020 18:19:19] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6048
+[26/Apr/2020 18:19:20] "GET /e/sharifj/social/people/ HTTP/1.1" 200 7185
+[26/Apr/2020 18:19:24] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 18:19:24] "GET /e/sharifj/social/people/ HTTP/1.1" 200 7894
+[26/Apr/2020 18:19:26] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 18:19:26] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8604
+[26/Apr/2020 18:19:34] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 18:19:34] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9314
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 18:19:10
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 18:32:40] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8368
+[26/Apr/2020 18:32:42] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8368
+[26/Apr/2020 18:32:43] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6048
+[26/Apr/2020 18:32:45] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8368
+[26/Apr/2020 18:32:56] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8368
+[26/Apr/2020 18:32:57] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6048
+[26/Apr/2020 18:34:56] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6048
+[26/Apr/2020 18:34:57] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8370
+[26/Apr/2020 18:35:00] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 18:35:00] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9076
+[26/Apr/2020 18:35:01] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 18:35:01] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9782
+/home/sharifj/private/CS1XA3/Project03/social/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 18:28:22
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 18:35:58
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 18:37:06
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 18:43:23
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 18:54:37] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10529
+[26/Apr/2020 18:54:38] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10529
+[26/Apr/2020 18:54:39] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6048
+[26/Apr/2020 18:54:40] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10529
+[26/Apr/2020 18:54:46] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[26/Apr/2020 18:54:46] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10771
+[26/Apr/2020 18:54:50] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[26/Apr/2020 18:54:51] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11718
+[26/Apr/2020 18:54:56] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[26/Apr/2020 18:54:56] "GET /e/sharifj/social/people/ HTTP/1.1" 200 12665
+[26/Apr/2020 18:54:58] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[26/Apr/2020 18:54:58] "GET /e/sharifj/social/people/ HTTP/1.1" 200 13612
+[26/Apr/2020 18:55:00] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[26/Apr/2020 18:55:00] "GET /e/sharifj/social/people/ HTTP/1.1" 200 14559
+[26/Apr/2020 18:55:02] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 18:55:03] "GET /e/sharifj/social/people/ HTTP/1.1" 200 16064
+[26/Apr/2020 18:55:04] "GET /e/sharifj/social/people/ HTTP/1.1" 200 16064
+[26/Apr/2020 18:55:06] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 6048
+[26/Apr/2020 18:55:09] "GET /e/sharifj/social/people/ HTTP/1.1" 200 16064
+[26/Apr/2020 18:55:47] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[26/Apr/2020 18:55:47] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 18:55:53] "POST /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 18:55:54] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[26/Apr/2020 18:56:08] "POST /e/sharifj/signup/ HTTP/1.1" 200 3982
+[26/Apr/2020 18:56:26] "POST /e/sharifj/signup/ HTTP/1.1" 302 0
+[26/Apr/2020 18:56:26] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5804
+[26/Apr/2020 18:56:29] "GET /e/sharifj/social/people/ HTTP/1.1" 200 6123
+[26/Apr/2020 18:56:30] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5804
+[26/Apr/2020 18:56:31] "GET /e/sharifj/social/people/ HTTP/1.1" 200 6123
+[26/Apr/2020 18:56:32] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5804
+[26/Apr/2020 18:56:33] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7031
+[26/Apr/2020 18:56:35] "GET /e/sharifj/social/people/ HTTP/1.1" 200 6123
+[26/Apr/2020 18:56:36] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5804
+[26/Apr/2020 18:56:37] "GET /e/sharifj/social/people/ HTTP/1.1" 200 6123
+[26/Apr/2020 18:56:43] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[26/Apr/2020 18:56:43] "GET /e/sharifj/social/people/ HTTP/1.1" 200 6160
+[26/Apr/2020 18:56:44] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 18:56:45] "GET /e/sharifj/social/people/ HTTP/1.1" 200 7035
+[26/Apr/2020 19:02:52] "GET /e/sharifj/social/people/ HTTP/1.1" 200 7184
+[26/Apr/2020 19:02:59] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[26/Apr/2020 19:02:59] "GET /e/sharifj/social/people/ HTTP/1.1" 200 7647
+[26/Apr/2020 19:03:03] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 19:03:03] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8684
+[26/Apr/2020 19:03:35] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 19:03:35] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9721
+[26/Apr/2020 19:03:36] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 19:03:36] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10746
+[26/Apr/2020 19:03:38] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 19:03:38] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11771
+[26/Apr/2020 19:03:40] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[26/Apr/2020 19:03:40] "GET /e/sharifj/social/people/ HTTP/1.1" 200 12863
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 18:49:37
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 19:24:52] "GET /e/sharifj/social/people/ HTTP/1.1" 200 12863
+[26/Apr/2020 19:25:01] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[26/Apr/2020 19:25:01] "GET /e/sharifj/social/people/ HTTP/1.1" 200 13959
+[26/Apr/2020 19:28:34] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5804
+[26/Apr/2020 19:28:36] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 19:28:36] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5804
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 19:18:51
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 19:32:59] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5804
+[26/Apr/2020 19:33:01] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 19:33:01] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5804
+[26/Apr/2020 19:33:04] "GET /e/sharifj/social/people/ HTTP/1.1" 200 13959
+[26/Apr/2020 19:37:50] "GET /e/sharifj/social/people/ HTTP/1.1" 200 13959
+[26/Apr/2020 19:37:52] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 19:37:53] "GET /e/sharifj/social/people/ HTTP/1.1" 200 13959
+[26/Apr/2020 19:37:55] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[26/Apr/2020 19:37:55] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 19:38:07] "POST /e/sharifj/ HTTP/1.1" 302 0
+[26/Apr/2020 19:38:07] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 19:38:11] "GET /e/sharifj/social/people/ HTTP/1.1" 200 23379
+[26/Apr/2020 19:38:15] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 19:38:15] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8430
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 19:30:29
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 19:53:39] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8430
+[26/Apr/2020 19:53:40] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8430
+[26/Apr/2020 19:53:41] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 19:53:45] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 19:53:45] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 19:54:14] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 19:54:14] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 20:01:15] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:11:20] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:11:23] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 21:11:24] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:11:33] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 21:11:33] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:19:02] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:19:03] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 21:19:03] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:19:05] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8430
+[26/Apr/2020 21:19:06] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[26/Apr/2020 21:19:06] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8894
+[26/Apr/2020 21:19:09] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8894
+[26/Apr/2020 21:20:31] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 19:53:17
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 21:27:32
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 21:33:06
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 21:33:26
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 21:37:49] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:37:51] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 21:37:51] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:37:52] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 21:37:52] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:37:53] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 21:37:53] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:38:02] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 21:38:02] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:38:04] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 21:38:04] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:45:55] "GET /e/sharifj/social/messages/ HTTP/1.1" 302 0
+[26/Apr/2020 21:45:55] "GET /e/sharifj/ HTTP/1.1" 200 4623
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 21:37:42
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 21:52:01] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:56:18] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:56:27] "GET /e/sharifj/social/messages/ HTTP/1.1" 302 0
+[26/Apr/2020 21:58:42] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:58:44] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:58:49] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 21:58:49] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 21:58:54] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 21:58:54] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 21:58:54] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 22:06:20] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 22:08:23] "POST /e/sharifj/social/morepost/ HTTP/1.1" 200 0
+[26/Apr/2020 22:08:23] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 21:49:40
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[26/Apr/2020 22:21:06] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 22:21:18] "GET /e/sharifj/social/messages/ HTTP/1.1" 302 0
+[26/Apr/2020 22:21:18] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 22:23:17] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 22:25:36] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8894
+[26/Apr/2020 22:25:40] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[26/Apr/2020 22:25:40] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9358
+[26/Apr/2020 22:25:46] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 22:32:24] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 22:14:14
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 22:35:38] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 22:35:43] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9358
+[26/Apr/2020 22:35:48] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 22:35:48] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11035
+[26/Apr/2020 22:35:50] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 22:35:50] "GET /e/sharifj/social/people/ HTTP/1.1" 200 12712
+[26/Apr/2020 22:35:52] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 22:35:52] "GET /e/sharifj/social/people/ HTTP/1.1" 200 14361
+[26/Apr/2020 22:35:54] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 22:35:54] "GET /e/sharifj/social/people/ HTTP/1.1" 200 16151
+[26/Apr/2020 22:35:55] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 22:35:56] "GET /e/sharifj/social/people/ HTTP/1.1" 200 17814
+[26/Apr/2020 22:35:57] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 22:35:57] "GET /e/sharifj/social/people/ HTTP/1.1" 200 19470
+[26/Apr/2020 22:36:06] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[26/Apr/2020 22:36:06] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 22:36:17] "POST /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 22:36:25] "POST /e/sharifj/ HTTP/1.1" 302 0
+[26/Apr/2020 22:36:26] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 22:36:29] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 22:36:30] "GET /e/sharifj/social/people/ HTTP/1.1" 200 27779
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 22:35:23
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 23:00:37] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 23:01:07] "GET /e/sharifj/social/messages/ HTTP/1.1" 302 0
+[26/Apr/2020 23:01:07] "GET /e/sharifj/ HTTP/1.1" 200 4623
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 22:50:43
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 23:22:40
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 23:22:52] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+[26/Apr/2020 23:22:53] "GET /e/sharifj/social/people/ HTTP/1.1" 200 27779
+[26/Apr/2020 23:22:58] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[26/Apr/2020 23:22:58] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9358
+[26/Apr/2020 23:23:00] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9358
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 23:22:48
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[26/Apr/2020 23:49:08] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[26/Apr/2020 23:49:08] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[26/Apr/2020 23:59:18] "POST /e/sharifj/ HTTP/1.1" 302 0
+[26/Apr/2020 23:59:18] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5802
+Not Found: /e/sharifj/social/
+[27/Apr/2020 00:01:11] "GET /e/sharifj/social/ HTTP/1.1" 404 4391
+[27/Apr/2020 00:01:19] "GET /e/sharifj/social/people/ HTTP/1.1" 200 27779
+[27/Apr/2020 00:05:55] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7031
+/home/sharifj/private/CS1XA3/Project03/login/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 26, 2020 - 23:25:27
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[27/Apr/2020 00:46:17] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[27/Apr/2020 00:46:24] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[27/Apr/2020 00:46:44] "POST /e/sharifj/signup/ HTTP/1.1" 302 0
+[27/Apr/2020 00:46:45] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5805
+[27/Apr/2020 00:46:47] "GET /e/sharifj/social/people/ HTTP/1.1" 200 6126
+[27/Apr/2020 00:46:49] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[27/Apr/2020 00:46:50] "GET /e/sharifj/social/people/ HTTP/1.1" 200 6960
+[27/Apr/2020 00:46:52] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[27/Apr/2020 00:46:52] "GET /e/sharifj/social/people/ HTTP/1.1" 200 7796
+[27/Apr/2020 00:46:55] "GET /e/sharifj/social/people/ HTTP/1.1" 200 7796
+[27/Apr/2020 00:46:57] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5805
+[27/Apr/2020 00:47:03] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5805
+[27/Apr/2020 00:47:03] "GET /e/sharifj/social/people/ HTTP/1.1" 200 7796
+[27/Apr/2020 00:47:05] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[27/Apr/2020 00:47:06] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8632
+[27/Apr/2020 00:47:07] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[27/Apr/2020 00:47:07] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8941
+[27/Apr/2020 00:47:10] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[27/Apr/2020 00:47:10] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9725
+[27/Apr/2020 00:47:13] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[27/Apr/2020 00:47:13] "GET /e/sharifj/social/people/ HTTP/1.1" 200 10508
+[27/Apr/2020 00:47:17] "POST /e/sharifj/social/friendrequest/ HTTP/1.1" 200 0
+[27/Apr/2020 00:47:17] "GET /e/sharifj/social/people/ HTTP/1.1" 200 11292
+[27/Apr/2020 00:47:20] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7034
+[27/Apr/2020 00:47:42] "GET /e/sharifj/social/update/?employment=Software&location=Hamilton&birthday=1996-07-02&interest=Add HTTP/1.1" 302 0
+[27/Apr/2020 00:47:42] "GET /e/sharifj/social/account/ HTTP/1.1" 200 7280
+[27/Apr/2020 00:47:50] "GET /e/sharifj/logout/ HTTP/1.1" 302 0
+[27/Apr/2020 00:47:50] "GET /e/sharifj/ HTTP/1.1" 200 4623
+/home/sharifj/private/CS1XA3/Project03/social/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 27, 2020 - 00:35:57
+Django version 3.0.3, using settings 'Project03.settings'
+Starting development server at http://localhost:10092/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[27/Apr/2020 01:16:55] "GET /e/sharifj/ HTTP/1.1" 200 4623
+[27/Apr/2020 01:17:21] "GET /e/sharifj/signup/ HTTP/1.1" 200 4006
+[27/Apr/2020 01:17:46] "POST /e/sharifj/signup/ HTTP/1.1" 200 3924
+[27/Apr/2020 01:17:59] "POST /e/sharifj/signup/ HTTP/1.1" 302 0
+[27/Apr/2020 01:17:59] "GET /e/sharifj/social/messages/ HTTP/1.1" 200 5806
+[27/Apr/2020 01:18:03] "GET /e/sharifj/social/people/ HTTP/1.1" 200 6127
+[27/Apr/2020 01:18:05] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[27/Apr/2020 01:18:05] "GET /e/sharifj/social/people/ HTTP/1.1" 200 6961
+[27/Apr/2020 01:18:07] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[27/Apr/2020 01:18:07] "GET /e/sharifj/social/people/ HTTP/1.1" 200 7797
+[27/Apr/2020 01:18:08] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[27/Apr/2020 01:18:09] "GET /e/sharifj/social/people/ HTTP/1.1" 200 8633
+[27/Apr/2020 01:18:11] "POST /e/sharifj/social/moreppl/ HTTP/1.1" 200 0
+[27/Apr/2020 01:18:11] "GET /e/sharifj/social/people/ HTTP/1.1" 200 9461

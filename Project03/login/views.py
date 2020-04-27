@@ -45,8 +45,10 @@ def logout_view(request):
       out: (HttpResponse) - perform User logout and redirects to login_view
     """
     # TODO Objective 4 and 9: reset sessions variables
-
+    
     # logout user
+    request.session["ppl_view"] = 1
+    request.session["post_view"] = 1
     logout(request)
 
     return redirect('login:login_view')
@@ -60,10 +62,29 @@ def signup_view(request):
     -------
       out : (HttpRepsonse) - renders signup.djhtml
     """
-    form = None
 
     # TODO Objective 1: implement signup view
-
-    context = { 'signup_form' : form }
+    if request.method == "POST":
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            username = form.cleaned_data.get('username')
+            password = form.cleaned_data.get("password1")
+            models.UserInfo.objects.create_user_info(username = username,password = password)
+            user = authenticate(username = username, password = password)
+            # form = UserCreationForm(request.POST.get())
+            #user = authenticate(username = username, password = password)
+            if user is not None:
+                login(request,user)
+                request.session['failed'] = False
+                request.session['ppl_view'] = 1
+                return redirect('social:messages_view')
+            else:
+                request.session['failed'] = True
+        else:
+            request.session['failed'] = True
+    
+    form = UserCreationForm(request.POST)
+    failure = request.session.get('signup_failed',False)
+    context = { 'signup_form' : form, 'signup_failed': failure }
 
     return render(request,'signup.djhtml',context)
