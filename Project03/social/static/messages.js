@@ -3,10 +3,22 @@
    ********************************************************************************************
    */
 function submitPost(event) {
-    alert('Post Button Pressed');
+    // alert('Post Button Pressed');
     // TODO Objective 8: send contents of post-text via AJAX Post to post_submit_view (reload page upon success)
+    post_text = $("#post-text").text()
+    $.post(post_submit_url,
+	    {"post_text":post_text},
+	    postCall);
 }
-
+function postCall(data,status){
+    if (status == "success"){
+    	console.log("success")
+	location.reload();
+    }
+    else {
+    	alert("Request failed" + status);
+    }
+};
 /* ********************************************************************************************
    | Handle Liking Posts - called by $('.like-button').click(submitLike)
    ********************************************************************************************
@@ -14,8 +26,21 @@ function submitPost(event) {
 function submitLike(event) {
     alert('Like Button Pressed');
     // TODO Objective 10: send post-n id via AJAX POST to like_view (reload page upon success)
+    console.log("Pressed Like Button")
+    console.log(event.currentTarget);
+    post_id = {"post_id":event.currentTarget.id}
+    $.post(like_post_url,post_id,likeHandle)
+
 }
 
+function likeHandle(event) {
+    if (status == "success") {
+    	location.reload();
+    }
+    else {
+    	alert("failed to request additional posts" + status);
+    }
+}
 /* ********************************************************************************************
    | Handle Requesting More Posts - called by $('#more-button').click(submitMore)
    ********************************************************************************************

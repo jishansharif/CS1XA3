@@ -4,4 +4,12 @@
 
 {% block middle_column %}
     <!-- TODO Objective 1: implement signup form -->
+    <form method="post" action="{% url 'login:signup_view' %}">
+	{% csrf_token %}
+	{{ signup_form }}
+	<input type="submit" value = "Submit" />
+    </form>
+    {% if signup_failed %}
+	<p>  Username or Password Invalid </p>
+    {% endif %}
 {% endblock %}
